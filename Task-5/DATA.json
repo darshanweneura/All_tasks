@@ -1,0 +1,44 @@
+[
+    {
+        "Name": "Pritesh",
+        "Employee id": 101,
+        "Salary": 25000,
+        "Department": "JAVA"
+    },
+    {
+        "Name": "Vali",
+        "Employee id": 102,
+        "Salary": 26000,
+        "Department": "C++"
+    },
+    {
+        "Name": "Nandani",
+        "Employee id": 103,
+        "Salary": 27000,
+        "Department": "Full-stake"
+    },
+    {
+        "Name": "Krishna",
+        "Employee id": 104,
+        "Salary": 30000,
+        "Department": "Data Analyst"
+    },
+    {
+        "Name": "Meet",
+        "Employee id": 105,
+        "Salary": 35000,
+        "Department": "Game developer"
+    },
+    {
+        "Name": "Darshan",
+        "Employee id": 107,
+        "Salary": 40000,
+        "Department": "Python Developer"
+    },
+    {
+        "Name": "Viren",
+        "Employee id": 108,
+        "Salary": 36000,
+        "Department": "JAVA"
+    }
+]
