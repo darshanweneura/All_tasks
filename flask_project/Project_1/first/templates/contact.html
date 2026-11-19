@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo_4</title>
+
+</head>
+<body>
+    <ul>
+        {% for people in peoples | selectattr("passed") %}
+            <li>
+                {{ people.name }}
+            </li>
+
+            <p>
+            {{ people.name }} - {{ people.passed }}
+            </p>
+            
+            {% endfor %}
+    </ul>
+</body>
+</html>

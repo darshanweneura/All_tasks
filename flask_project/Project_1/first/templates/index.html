@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask JavaScript</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <h1>JavaScript with Flask</h1>
+
+    <button onclick="showMessage()">
+        Show Alert
+    </button>
+
+    <p id="demo">Original Text</p>
+
+    <button onclick="changeText()">
+        Change Text
+    </button>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

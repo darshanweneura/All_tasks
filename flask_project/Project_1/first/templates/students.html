@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo_2</title>
+
+</head>
+<body>
+    <h1>Students</h1>
+    <ul>
+        {% for name in range(1,25,3) %}
+
+        <li>
+            {{name}}
+            {{ names | join("+") }}
+        </li>
+        {% endfor %}
+
+        {% for name in names %}
+
+        <li>
+            {{name}}
+        </li>
+        {% endfor %}
+    </ul>
+    
+</body>
+</html>

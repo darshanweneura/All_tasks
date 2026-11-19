@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo</title>
+
+</head>
+<body>
+    <h1>Name: {{name | upper}}
+        {{name|lower}}
+        {{name|replace(name , "Meet")}}
+    </h1>
+    <h2>Marks: {{marks}} </h2>
+    {% if marks >= 35 %}
+        <h3>Pass</h3>
+    {% else %}
+        <h3>Fail</h3>
+    {% endif %}
+</body>
+</html>
