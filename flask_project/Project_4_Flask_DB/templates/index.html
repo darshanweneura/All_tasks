@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students</title>
+</head>
+<body>
+
+    <h1>Student List</h1>
+
+    <a href="/">Home</a>
+    <a href="/add">Add New Student</a>
+    <a href="/Create_DB">Create Database use only once</a>
+    <a href="/students">Saw data</a>
+    
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Course</th>
+        </tr>
+
+        {% for student in students %}
+        <tr>
+            <td>{{ student.id }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.age }}</td>
+            <td>{{ student.course }}</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+
+</body>
+</html>
