@@ -1,0 +1,16 @@
+$kind: http-request
+name: ""
+url: http://127.0.0.1:5000/api/products
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"asdf\",\r
+
+    \    \"price\": 44,\r
+
+    \    \"category\": \"Accessories\"\r
+
+    }"
+order: 1000
